@@ -1,0 +1,7 @@
+export const REG_ROUTE = '/'
+export const ADMIN_ROUTE = '/admin'
+export const LOGIN_ROUTE = '/'
+export const WORKER_ROUTE = '/worker'
+export const ANALYST_ROUTE = '/analyst'
+export const CONTROLLER_ROUTE = '/controller'
+export const MANAGER_ROUTE = '/manager'

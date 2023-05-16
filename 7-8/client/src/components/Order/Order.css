@@ -1,0 +1,54 @@
+.orderContainer{
+    position: relative;
+    box-shadow: 10px 10px 20px red;
+    border: 2px solid rgb(207, 122, 32);
+    border-radius: 10px;
+}
+
+.orderContainer .client{
+    position: absolute;
+    left:0;
+    top: 60px;
+    color: #242424;
+    background-color: rgb(207, 122, 32);
+    font-size: 20px;
+}
+.orderContainer .worker{
+    position: absolute;
+    color: #242424;
+    bottom: 0;
+}
+
+.orderContainer .date{
+    position: absolute;
+    border-radius:10px 10px 0 0;
+    color: #242424;
+    background-color: rgb(207, 122, 32);
+    left:50%;
+    transform:translate(-50%, 0%);
+    width: 70%;
+    bottom: 0
+}
+
+.orderContainer .nameOrder{
+    position: absolute;
+    color: #242424;
+    width: 70%;
+    padding: 0 2px;
+    background-color: rgb(207, 122, 32);
+    top: 0;
+    left:50%;
+    transform:translate(-50%, 0%);
+    border-radius: 0 0 10px 10px
+}
+
+
+.orderContainer .numberOrder{
+    position: absolute;
+    color: #242424;
+    background-color: rgb(207, 122, 32);
+    border-radius: 6px 0 10px 0;
+    width: 20px;
+    left: 0;
+    top: 0
+}

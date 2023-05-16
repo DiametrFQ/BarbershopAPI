@@ -1,0 +1,22 @@
+.container{
+    background-color: #1A1A1A;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+
+}
+.container .role .text{
+    color: #644CFF;
+}
+.container .role .role {
+    width: 150px;
+}
+.container .Login, .Password, .Phone , 
+.Addres, .Fullname, .Experience, 
+.Salary, .Age, .ServiceName, .Price{
+    width: 150px;
+}
+.container :nth-child(even){
+    margin-top: 6px;
+}

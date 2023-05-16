@@ -1,0 +1,28 @@
+div:focus{
+    border: 1px solid red
+}
+.inputContainer{
+    /* position: absolute; */
+    width: 220px;
+    background-color: #1A1A1A;
+
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 0 18%;
+}
+.inputContainer .clients {
+
+    margin: 7%;
+}
+
+.inputContainer .workers {
+    margin: 8%;
+}
+.inputContainer .text {
+    color: #644CFF;
+    font-size: large;
+    padding-top: 5%;
+}
+.excel{
+    margin-top: 10px;
+}
